@@ -9,18 +9,11 @@ dependencies:
     - scipy
     - pandas
     - pandas-datareader
+    - numpy
     - matplotlib
+    - plotly
     - pillow
-    - tqdm
-    - requests
-    - h5py
-    - pyyaml
-    - flask
-    - boto3
     - pip:
         - tensorflow-macos==2.5.0
         - tensorflow-metal==0.1.2
-        - bayesian-optimization
-        - gym
-        - kaggle
         
