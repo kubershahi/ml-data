@@ -1,0 +1,25 @@
+# conda env create -f <filename> -n <env name>
+# ipython kernel install --user --name=new-env
+
+name: work
+
+channels:
+    - defaults
+
+dependencies:
+    - python=3.9
+    - pip>=23.0
+    - jupyter
+    - ipykernel
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - numpy
+    - plotly
+    - matplotlib
+    - pillow
+    - requests
+    - pytorch
+    - pip:
+        - kaggle
